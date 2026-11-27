@@ -17,3 +17,9 @@ npx @pollinations/cli login
 2. `storyboard/scene-XX.png` — style-consistent illustrations
 3. `storyboard/scene-XX.mp3` — voiceover narration per scene
 4. `storyboard/index.html` — interactive storyboard player with auto-advance
+
+## Quick Run Script
+
+```bash
+POLLINATIONS_API_KEY=sk_... node scripts/generate-storyboard.mjs "A tiny robot discovering a bioluminescent garden"
+```
